@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "rRt/3Nb1J7FdinQDMmwHW42fe3hK7SutoNh5xuBcZs/EzVQRGWb3juFDNUSb1gZEX4eMAA802I7JHi0IX4lNIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Annabelle\\OneDrive\\My Documents\\GitHub\\3DModelViewerMVVM\\3DModelViewerMVVM\\3DModelViewerMVVM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Annabelle\\.nuget\\packages\\helixtoolkit.wpf\\2.24.0\\helixtoolkit.wpf.2.24.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HelixToolkit.Wpf 2.24.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HelixToolkit.Wpf",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

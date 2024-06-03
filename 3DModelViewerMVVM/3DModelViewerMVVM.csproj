@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>_3DModelViewerMVVM</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UX Images\61007.png" />
+    <None Remove="UX Images\rotate-to-right-button_icon-icons.com_72597.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HelixToolkit.Wpf" Version="2.24.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="UX Images\61007.png" />
+    <Resource Include="UX Images\rotate-to-right-button_icon-icons.com_72597.png" />
+  </ItemGroup>
+
+</Project>
